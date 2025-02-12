@@ -1,0 +1,63 @@
+/* Fondo y espaciado general */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Caja de color */
+.color-box {
+    width: 100%;
+    height: 180px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Texto hexadecimal */
+#hexCode {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilo de los controles */
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Tarjeta y sombra */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las etiquetas */
+.form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Estilo del Color Picker */
+input[type="color"] {
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+/* Estilo de los controles de RGB */
+.row {
+    margin-bottom: 1.5rem;
+}
